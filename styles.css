@@ -23,21 +23,52 @@ a {
 
 button {
     background-color: #3882f6;
-
+    color:#f9faf8 ;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 6px;
+    border: none;
 }
 
 h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 0px;
 }
 
 .header {
     background-color: #1f2937;
-    padding: 20px;
+    padding: 20px 100px 60px;
+    height: 500px;
+}
+
+.logo {
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .links {
     display: flex;
     gap: 20px;
+    padding-bottom: 50px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-img {
+    width: 500px;
+    max-height: 250px;
 }
