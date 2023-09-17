@@ -38,7 +38,7 @@ h1 {
 }
 
 strong {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 img {
@@ -157,3 +157,15 @@ img {
     border: 2px solid #f9faf8;
     border-radius: 6px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    padding: 40px;
+    color: #E5E7EB;
+}
+/* Need to make sections uniform in length. Play around with 
+margin: 100px 200px;
+padding: 30px 60px; */
