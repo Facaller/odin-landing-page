@@ -47,21 +47,31 @@ img {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    flex-wrap: wrap;
     background-color: #1f2937;
     padding: 30px 60px;
 }
-
+/* start here header align content 
+is the right track fix divs inside it  */
 .logo {
     flex-grow: 1;
     font-size: 28px;
     font-weight: 900;
 }
 
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
 .links {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-bottom: 20px;
 }
 
 .secondary-text {
