@@ -52,7 +52,7 @@ img {
     align-content:center;
     flex-wrap: wrap;
     background-color: #1f2937;
-    padding: 30px 60px;
+    padding: 30px 60px 60px 60px;
 }
 /* start here header align content 
 is the right track fix divs inside it  */
@@ -85,9 +85,18 @@ is the right track fix divs inside it  */
     align-items: center;
 }
 
+.box-one {
+    padding-right: 90px;
+    width: 650px;
+}
+
+.box-two {
+    padding-left: 90px;
+}
+
 .main-img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
@@ -176,6 +185,3 @@ is the right track fix divs inside it  */
     padding: 40px;
     color: #E5E7EB;
 }
-/* Need to make sections uniform in length. Play around with 
-margin: 100px 200px;
-padding: 30px 60px; */
