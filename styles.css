@@ -160,12 +160,19 @@ img {
 .cta {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: #3882f6;
+    justify-content: center;
     color: #f9faf8;
-    padding: 50px;
     margin: 30px 60px;
+}
+
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 100px;
     border-radius: 6px;
+    width: 1000px;
 }
 
 .cta-text {
