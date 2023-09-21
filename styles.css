@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    outline: solid 1px red;
 }
 
 body {
@@ -134,9 +135,11 @@ img {
     background-color: #E5E7EB;
     padding: 100px 60px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
 
+.quote-section {
+    width: 1000px;
 }
 
 .quote {
@@ -144,20 +147,18 @@ img {
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
-    width: 1000px;
     padding: 10px;
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
-    width: 1000px;
     padding-right: 20px;
     font-weight: bold;
     font-size: 20px;
 }
 
-.cta {
+.cta-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +166,7 @@ img {
     margin: 30px 60px;
 }
 
-.cta-box {
+.cta {
     display: flex;
     align-items: center;
     justify-content: space-between;
